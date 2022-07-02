@@ -58,9 +58,9 @@ export default function Actors() {
     setShowUpdateModal(false);
   };
 
-  const handleOnSearchSubmit = (value) => {
-    handleSearch(searchActor, value, setResults);
-  };
+//  const handleOnSearchSubmit = (value) => {
+//    handleSearch(searchActor, value, setResults);
+//  };
 
   const handleSearchFormReset = () => {
     resetSearch();

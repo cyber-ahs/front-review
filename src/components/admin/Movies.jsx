@@ -90,9 +90,9 @@ export default function Movies() {
 
   const handleUIUpdate = () => fetchMovies();
 
-  useEffect(() => {
-    fetchMovies();
-  }, []);
+//  useEffect(() => {
+//    fetchMovies();
+//  }, []);
 
   return (
     <>

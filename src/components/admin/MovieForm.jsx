@@ -175,16 +175,16 @@ export default function MovieForm({ onSubmit, btnTitle, initialState, busy }) {
     setMovieInfo({ ...movieInfo, cast: [...newCast] });
   };
 
-  useEffect(() => {
-    if (initialState) {
-      setMovieInfo({
-        ...initialState,
-        releseDate: initialState.releseDate.split("T")[0],
-        poster: null,
-      });
-      setSelectedPosterForUI(initialState.poster);
-    }
-  }, [initialState]);
+//  useEffect(() => {
+//    if (initialState) {
+//      setMovieInfo({
+//        ...initialState,
+//        releseDate: initialState.releseDate.split("T")[0],
+//        poster: null,
+//      });
+//      setSelectedPosterForUI(initialState.poster);
+//    }
+//  }, [initialState]);
 
   const {
     title,
